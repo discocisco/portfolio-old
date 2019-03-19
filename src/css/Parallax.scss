@@ -1,0 +1,113 @@
+$paleaqua: #b9d6f2;
+$spacecadet: #18314f;
+$carminepink: #ef6f6c;
+$myrtlegreen: #297373;
+$white: #fff;
+
+@function random-color() {
+  $value: $paleaqua;
+  @if random(5) == 1 {
+    $value: $carminepink;
+  } @else if random(5) == 2 {
+    $value: $spacecadet;
+  } @else if random(5) == 3 {
+    $value: $paleaqua;
+  } @else if random(5) == 4 {
+    $value: $myrtlegreen;
+  } @else {
+    $value: $white;
+  }
+  // @return unquote($value);
+  @return $value;
+}
+
+// n is number of stars required
+@function multiple-box-shadow($n) {
+  $value: '#{random(2000)}px #{random(2000)}px #{random-color()}';
+
+  @for $i from 2 through $n {
+    $value: '#{$value} , #{random(2000)}px #{random(2000)}px #{random-color()}';
+  }
+
+  @return unquote($value);
+}
+
+$shadows-small: multiple-box-shadow(700);
+$shadows-medium: multiple-box-shadow(200);
+$shadows-big: multiple-box-shadow(100);
+
+.parallax {
+  position: fixed;
+
+  .stars1 {
+    animation: animStar 150s linear infinite;
+    background: transparent;
+    background-attachment: scroll;
+    border-radius: 50%;
+    box-shadow: $shadows-small;
+    height: 2px;
+    width: 2px;
+
+    &::after {
+      background: transparent;
+      border-radius: 50%;
+      box-shadow: $shadows-small;
+      height: 2px;
+      position: absolute;
+      top: 2000px;
+      width: 2px;
+    }
+  }
+
+  .stars2 {
+    animation: animStar 100s linear infinite;
+    background: transparent;
+    background-attachment: scroll;
+    border-radius: 50%;
+    box-shadow: $shadows-medium;
+    height: 3px;
+    width: 3px;
+
+    &::after {
+      background: transparent;
+      background-attachment: scroll;
+      border-radius: 50%;
+      box-shadow: $shadows-medium;
+      height: 3px;
+      position: absolute;
+      top: 2000px;
+      width: 3px;
+    }
+  }
+
+  .stars3 {
+    animation: animStar 50s linear infinite;
+    background: transparent;
+    background-attachment: scroll;
+    border-radius: 50%;
+    box-shadow: $shadows-big;
+    height: 4px;
+    width: 4px;
+
+    &::after {
+      background: transparent;
+      background-attachment: scroll;
+      border-radius: 50%;
+      box-shadow: $shadows-big;
+      height: 4px;
+      position: absolute;
+      top: 2000px;
+      width: 4px;
+    }
+  }
+
+  @keyframes animStar {
+    from {
+      transform: translateY(-2000px);
+    }
+
+    to {
+      transform: translateY(0);
+    }
+  }
+}

@@ -1,0 +1,16 @@
+@import './Menu';
+@import './Intro';
+@import './About';
+
+
+
+body {
+  background-attachment: fixed;
+  background-image: url('../img/DesertNightStars.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: sans-serif;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}

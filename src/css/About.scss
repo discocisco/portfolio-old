@@ -1,0 +1,55 @@
+$shine: rgba(255, 255, 255, .3);
+
+.about-wrapper {
+  align-items: center;
+  color: $white;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+
+  .about-title {
+    font-size: 4em;
+    font-weight: bold;
+    margin: 10px;
+  }
+
+  .about-profile {
+    display: flex;
+    padding: 10px;
+
+    .about-body {
+      padding: 20px;
+      width: 55vw;
+
+      .about-quote {
+        font-size: 2em;
+        font-style: italic;
+        margin: 10px;
+        padding: 10px 20px;
+        text-align: center;
+      }
+
+      .about-text {
+        font-size: 1.5em;
+        margin: 10px;
+        padding: 10px 20px;
+      }
+    }
+  }
+
+  .about-picture {
+    border-radius: 50%;
+    height: 300px;
+    margin: 10px 20px;
+    padding: 10px;
+
+    img {
+      height: 100%;
+      transition: transform 1.5s;
+
+      &:hover {
+        transform: rotateY(1080deg);
+      }
+    }
+  }
+}

@@ -1,0 +1,22 @@
+$white: #fff;
+
+.menu {
+  align-items: center;
+  color: $white;
+  display: flex;
+  justify-content: flex-end;
+  padding: 10px 20px;
+  position: fixed;
+  width: 100vw;
+
+  div {
+    border: 2px solid transparent;
+    font-size: 1.6em;
+    margin: 0 20px;
+
+    &:hover {
+      border-bottom: 2px solid $white;
+      cursor: pointer;
+    }
+  }
+}
