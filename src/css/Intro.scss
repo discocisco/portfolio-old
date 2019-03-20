@@ -3,8 +3,9 @@
   color: $white;
   display: flex;
   flex-direction: column;
-  height: 100vh;
-  justify-content: center;
+  min-height: 100vh;
+  transform: translateY(40%);
+  // justify-content: center;
 
   .intro-name {
     font-size: 4em;

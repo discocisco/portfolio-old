@@ -5,6 +5,7 @@ $carminepink: #ef6f6c;
 $myrtlegreen: #297373;
 $black: #000;
 $internetblack: #333;
+$brickred: #19262e;
 $turqoise: #55dde0;
 
 @import './devicons';
@@ -17,7 +18,8 @@ $turqoise: #55dde0;
 html,
 body {
   // background-attachment: fixed;
-  background-color: #003455;
+  // background-color: #003455;
+  background-color: $brickred;
   // background-image: url('../img/DesertNightStars.jpg');
   // background-repeat: no-repeat;
   // background-size: cover;
@@ -29,7 +31,7 @@ body {
 
 #browser {
   background-attachment: fixed;
-  background-color: $internetblack;
+  background-color: $brickred;
   background-image: url('../img/DesertNightStars.jpg');
   background-repeat: no-repeat;
   background-size: cover;
