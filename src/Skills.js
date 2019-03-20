@@ -17,10 +17,10 @@ const skillsArr = [
   { name: 'MongoDB', deviconName: 'mongodb' },
   { name: 'Mongoose.js', deviconName: 'nodejs_small' },
   { name: 'Express.js', deviconName: 'nodejs_small' },
-  { name: 'Git', deviconName: 'git' },
-  { name: 'MATLAB', deviconName: 'code_badge' },
-  { name: 'AutoCAD', deviconName: 'code_badge' },
-  { name: 'GIMP', deviconName: 'code_badge' }
+  { name: 'Git', deviconName: 'git' }
+  // { name: 'MATLAB', deviconName: 'code_badge' },
+  // { name: 'AutoCAD', deviconName: 'code_badge' },
+  // { name: 'GIMP', deviconName: 'code_badge' }
 ]
 
 const Skills = () => (

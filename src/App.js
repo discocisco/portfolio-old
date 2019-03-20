@@ -6,6 +6,7 @@ import Menu from './Menu.js'
 import Intro from './Intro.js'
 import About from './About.js'
 import Skills from './Skills.js'
+import Projects from './Projects.js'
 
 class App extends Component {
   render () {
@@ -16,6 +17,7 @@ class App extends Component {
         <Intro />
         <About />
         <Skills />
+        <Projects />
       </React.Fragment>
     )
   }

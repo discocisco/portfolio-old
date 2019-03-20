@@ -3,7 +3,8 @@
   color: $white;
   display: flex;
   flex-direction: column;
-  height: 90vh;
+  min-height: 100vh;
+  padding-top: 62px;
 
   .about-title {
     font-size: 4em;
@@ -44,7 +45,6 @@
 
     &:hover {
       height: 400px;
-      // transform: rotateY(1080deg);
     }
 
     img {

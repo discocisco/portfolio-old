@@ -1,11 +1,14 @@
 .menu {
   align-items: center;
+  // background-color: rgba(0, 35, 50, .6);
   color: $white;
   display: flex;
   justify-content: flex-end;
   padding: 10px 20px;
   position: fixed;
+  transition: background-color .5s;
   width: 100vw;
+  z-index: 1000;
 
   div {
     border: 2px solid transparent;
@@ -16,5 +19,9 @@
       border-bottom: 2px solid $white;
       cursor: pointer;
     }
+  }
+
+  &:hover {
+    background-color: rgba(0, 35, 50, .8);
   }
 }

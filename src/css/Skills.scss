@@ -2,7 +2,9 @@
   color: $white;
   display: flex;
   flex-direction: column;
-  height: 90vh;
+  margin: 20px 200px;
+  min-height: 100vh;
+  padding-top: 62px;
   text-align: center;
 
   .skills-title {
@@ -21,7 +23,7 @@
 
   .skill-item {
     margin: 30px;
-    width: 240px;
+    width: 200px;
 
     .skill-icon {
       align-items: center;
@@ -29,15 +31,15 @@
       border-radius: 50%;
       box-shadow: 0 0 20px $black;
       display: flex;
-      height: 150px;
+      height: 120px;
       justify-content: center;
       margin: 5px auto;
       transition: transform 1s, border-radius 1s, border 1s;
-      width: 150px;
+      width: 120px;
 
       span {
         color: #003455;
-        font-size: 5em;
+        font-size: 4em;
       }
     }
 

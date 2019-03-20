@@ -4,6 +4,7 @@ $spacecadet: #18314f;
 $carminepink: #ef6f6c;
 $myrtlegreen: #297373;
 $black: #000;
+$internetblack: #333;
 $turqoise: #55dde0;
 
 @import './devicons';
@@ -11,14 +12,25 @@ $turqoise: #55dde0;
 @import './Intro';
 @import './About';
 @import './Skills';
+@import './Projects';
 
+html,
 body {
-  background-attachment: fixed;
-  background-image: url('../img/DesertNightStars.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
+  // background-attachment: fixed;
+  background-color: #003455;
+  // background-image: url('../img/DesertNightStars.jpg');
+  // background-repeat: no-repeat;
+  // background-size: cover;
   font-family: sans-serif;
   height: 100vh;
   margin: 0;
   padding: 0;
+}
+
+#browser {
+  background-attachment: fixed;
+  background-color: $internetblack;
+  background-image: url('../img/DesertNightStars.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
 }
