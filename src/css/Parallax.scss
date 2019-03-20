@@ -1,8 +1,9 @@
+$white: #fff;
 $paleaqua: #b9d6f2;
 $spacecadet: #18314f;
 $carminepink: #ef6f6c;
 $myrtlegreen: #297373;
-$white: #fff;
+$black: #000;
 
 @function random-color() {
   $value: $paleaqua;

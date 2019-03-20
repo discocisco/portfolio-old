@@ -1,8 +1,16 @@
+$white: #fff;
+$paleaqua: #b9d6f2;
+$spacecadet: #18314f;
+$carminepink: #ef6f6c;
+$myrtlegreen: #297373;
+$black: #000;
+$turqoise: #55dde0;
+
+@import './devicons';
 @import './Menu';
 @import './Intro';
 @import './About';
-
-
+@import './Skills';
 
 body {
   background-attachment: fixed;

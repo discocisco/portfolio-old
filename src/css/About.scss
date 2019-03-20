@@ -1,11 +1,9 @@
-$shine: rgba(255, 255, 255, .3);
-
 .about-wrapper {
   align-items: center;
   color: $white;
   display: flex;
   flex-direction: column;
-  height: 100vh;
+  height: 90vh;
 
   .about-title {
     font-size: 4em;
@@ -26,7 +24,6 @@ $shine: rgba(255, 255, 255, .3);
         font-style: italic;
         margin: 10px;
         padding: 10px 20px;
-        text-align: center;
       }
 
       .about-text {
@@ -39,17 +36,19 @@ $shine: rgba(255, 255, 255, .3);
 
   .about-picture {
     border-radius: 50%;
+    box-shadow: 0 0 20px $black;
     height: 300px;
     margin: 10px 20px;
-    padding: 10px;
+    padding: 0;
+    transition: height 1.5s;
+
+    &:hover {
+      height: 400px;
+      // transform: rotateY(1080deg);
+    }
 
     img {
       height: 100%;
-      transition: transform 1.5s;
-
-      &:hover {
-        transform: rotateY(1080deg);
-      }
     }
   }
 }
