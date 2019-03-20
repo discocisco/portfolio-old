@@ -2,8 +2,10 @@
   color: $white;
   display: flex;
   flex-direction: column;
+  margin: 0 auto;
   min-height: 100vh;
   text-align: center;
+  width: 60vw;
 
   .projects-title {
     font-size: 4em;
@@ -11,4 +13,99 @@
     height: inherit;
     margin: 10px;
   }
+}
+
+.project-item {
+  background-color: $transparent-space;
+  border-radius: 20px;
+  box-shadow: 0 0 40px $black;
+  display: flex;
+  margin: 100px 0;
+  overflow: hidden;
+
+  .project-photo {
+    overflow: hidden;
+    width: 45%;
+
+    img {
+      width: 100%;
+    }
+  }
+
+  .project-description {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 0 20px;
+    width: 55%;
+
+    .project-title {
+      font-size: 3em;
+
+      .project-link {
+        border-bottom: 2px transparent solid;
+        font-size: .3em;
+        width: auto;
+
+        &:hover {
+          border-bottom: 2px $turqoise solid;
+
+          a {
+            color: $turqoise;
+          }
+        }
+
+        a {
+          color: $gray;
+          text-decoration: none;
+        }
+      }
+    }
+
+
+    .project-summary {
+      margin-bottom: 10px;
+      padding: 0 40px;
+    }
+  }
+}
+
+
+.project-tech {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 3em;
+  justify-content: center;
+
+  span {
+    color: $gray;
+    margin: 0 5px;
+    transition: color .5s, text-shadow .5s;
+
+    &:hover {
+      color: $white;
+      text-shadow: 0 0 20px $turqoise;
+    }
+  }
+}
+
+.project-repos {
+  align-items: center;
+  display: flex;
+  font-size: 1.2em;
+
+  .project-github-repos {
+    font-size: 1.6em;
+  }
+
+  a {
+    color: $paleaqua;
+    margin: 0 20px;
+  }
+}
+
+.project-2,
+.project-4 {
+  flex-direction: row-reverse;
 }

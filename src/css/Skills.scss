@@ -28,6 +28,7 @@
     .skill-icon {
       align-items: center;
       background-color: $white;
+      border: 5px solid $white;
       border-radius: 50%;
       box-shadow: 0 0 20px $black;
       display: flex;
@@ -38,7 +39,7 @@
       width: 120px;
 
       span {
-        color: #003455;
+        color: $spacecadet;
         font-size: 4em;
       }
     }
