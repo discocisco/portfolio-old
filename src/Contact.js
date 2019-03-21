@@ -1,6 +1,10 @@
 import React from 'react'
 
 import resume from './img/AndresOrtizPortfolioResume.pdf'
+import emailIcon from './img/email.png'
+import resumeIcon from './img/curriculum.png'
+import linkedInIcon from './img/linkedin.png'
+import githubIcon from './img/github-sign.png'
 
 // import octocat from './img/GitHub-Mark-Light-64px.png'
 
@@ -14,28 +18,28 @@ const Contact = () => (
         <div className='contact-btn'>
           <a href='https://github.com/discocisco' target='_blank' rel='noopener noreferrer'>
             <div className='contact-icon'>
-              <span className='devicons devicons-github_badge'/>
+              <img className='github-img' src={githubIcon} />
             </div>
           </a>
         </div>
         <div className='contact-btn'>
           <a href='https://www.linkedin.com/in/f-andres-ortiz/' target='_blank' rel='noopener noreferrer'>
             <div className='contact-icon'>
-            LinkedIn
+              <img className='linkedin-img' src={linkedInIcon} />
             </div>
           </a>
         </div>
         <div className='contact-btn'>
           <a href='mailto:f.andresort@gmail.com' target='_blank' rel='noopener noreferrer'>
             <div className='contact-icon'>
-            Email
+              <img className='email-img' src={emailIcon} />
             </div>
           </a>
         </div>
         <div className='contact-btn'>
           <a href={resume} target='_blank' rel='noopener noreferrer'>
             <div className='contact-icon'>
-            Resume
+              <img className='resume-img' src={resumeIcon} />
             </div>
           </a>
         </div>
