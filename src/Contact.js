@@ -6,8 +6,6 @@ import resumeIcon from './img/curriculum.png'
 import linkedInIcon from './img/linkedin.png'
 import githubIcon from './img/github-sign.png'
 
-// import octocat from './img/GitHub-Mark-Light-64px.png'
-
 const Contact = () => (
   <div id='contact' className='contact-wrapper'>
     <div className='contact-title'>
@@ -21,6 +19,9 @@ const Contact = () => (
               <img className='github-img' src={githubIcon} />
             </div>
           </a>
+          <div className='contact-name'>
+            Github - @discocisco
+          </div>
         </div>
         <div className='contact-btn'>
           <a href='https://www.linkedin.com/in/f-andres-ortiz/' target='_blank' rel='noopener noreferrer'>
@@ -28,6 +29,9 @@ const Contact = () => (
               <img className='linkedin-img' src={linkedInIcon} />
             </div>
           </a>
+          <div className='contact-name'>
+            LinkedIn - /f-andres-ortiz
+          </div>
         </div>
         <div className='contact-btn'>
           <a href='mailto:f.andresort@gmail.com' target='_blank' rel='noopener noreferrer'>
@@ -35,6 +39,9 @@ const Contact = () => (
               <img className='email-img' src={emailIcon} />
             </div>
           </a>
+          <div className='contact-name'>
+            Email - f.andresort@gmail.com
+          </div>
         </div>
         <div className='contact-btn'>
           <a href={resume} target='_blank' rel='noopener noreferrer'>
@@ -42,6 +49,9 @@ const Contact = () => (
               <img className='resume-img' src={resumeIcon} />
             </div>
           </a>
+          <div className='contact-name'>
+            My Résumé
+          </div>
         </div>
       </div>
     </div>

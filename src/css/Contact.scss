@@ -49,8 +49,32 @@
     padding: 0 20px;
     width: 200px;
 
+    &:hover {
+      animation-duration: 1.7s;
+      animation-iteration-count: infinite;
+      animation-name: bounceIcon;
+      animation-timing-function: cubic-bezier(.28, .84, .42, 1);
+    }
+
     img {
       height: 60%;
     }
+
+    @keyframes bounceIcon {
+      0%   { transform: scale(1, 1)      translateY(0); }
+      10%  { transform: scale(1.1, .9)   translateY(0); }
+      30%  { transform: scale(.9, 1.1)   translateY(-50px); }
+      50%  { transform: scale(1.05, .95) translateY(0); }
+      57%  { transform: scale(1, 1)      translateY(-7px); }
+      64%  { transform: scale(1, 1)      translateY(0); }
+      100% { transform: scale(1, 1)      translateY(0); }
+    }
+
+  }
+
+  .contact-name {
+    display: flex;
+    justify-content: center;
+    margin: 10px 0;
   }
 }
