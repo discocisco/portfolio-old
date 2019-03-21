@@ -30,7 +30,7 @@ const Contact = () => (
             </div>
           </a>
           <div className='contact-name'>
-            LinkedIn - /f-andres-ortiz
+            f-andres-ortiz
           </div>
         </div>
         <div className='contact-btn'>
@@ -40,7 +40,7 @@ const Contact = () => (
             </div>
           </a>
           <div className='contact-name'>
-            Email - f.andresort@gmail.com
+            f.andresort@gmail.com
           </div>
         </div>
         <div className='contact-btn'>
@@ -50,7 +50,7 @@ const Contact = () => (
             </div>
           </a>
           <div className='contact-name'>
-            My Résumé
+            Résumé
           </div>
         </div>
       </div>
