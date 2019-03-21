@@ -11,12 +11,14 @@ $turqoise: #55dde0;
 $transparent-space: rgba(0, 32, 54, .8);
 
 @import './devicons';
+@import './Parallax';
 @import './Menu';
 @import './Intro';
 @import './About';
 @import './Skills';
 @import './Projects';
 @import './Contact';
+@import './Footer';
 
 html,
 body {

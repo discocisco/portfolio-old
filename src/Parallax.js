@@ -1,7 +1,5 @@
 import React from 'react'
 
-import './css/Parallax.scss'
-
 const Parallax = () => (
   <div className='parallax'>
     <div className='stars1'></div>
