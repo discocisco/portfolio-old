@@ -50,7 +50,7 @@ const projectArr = [
 ]
 
 const Projects = () => (
-  <div className='projects-wrapper'>
+  <div id='portfolio' className='projects-wrapper'>
     <div className='projects-title'>
       Portfolio
     </div>

@@ -16,19 +16,17 @@ $transparent-space: rgba(0, 32, 54, .8);
 @import './About';
 @import './Skills';
 @import './Projects';
+@import './Contact';
 
 html,
 body {
-  // background-attachment: fixed;
-  // background-color: #003455;
   background-color: $brickred;
-  // background-image: url('../img/DesertNightStars.jpg');
-  // background-repeat: no-repeat;
-  // background-size: cover;
   font-family: sans-serif;
   height: 100vh;
   margin: 0;
+  overflow: scroll;
   padding: 0;
+  scroll-behavior: smooth;
 }
 
 #browser {

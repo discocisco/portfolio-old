@@ -3,7 +3,7 @@ import React from 'react'
 import profileImage from './img/profile-photo.png'
 
 const About = () => (
-  <div id='about-component' className='about-wrapper'>
+  <div id='about' className='about-wrapper'>
     <div className='about-title'>
       About
     </div>

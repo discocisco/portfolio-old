@@ -24,7 +24,7 @@ const skillsArr = [
 ]
 
 const Skills = () => (
-  <div className='skills-wrapper'>
+  <div id='skills' className='skills-wrapper'>
     <div className='skills-title'>
       Skills
     </div>

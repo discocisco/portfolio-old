@@ -3,17 +3,18 @@
   color: $white;
   display: flex;
   flex-direction: column;
+  font-weight: bold;
+  justify-content: center;
   min-height: 100vh;
-  transform: translateY(40%);
-  // justify-content: center;
+  text-shadow: 0 0 20px $black;
 
   .intro-name {
     font-size: 4em;
-    font-weight: bold;
   }
 
   .intro-header {
     font-size: 2em;
+    font-style: italic;
   }
 
   .intro-location {

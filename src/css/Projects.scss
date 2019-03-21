@@ -4,6 +4,7 @@
   flex-direction: column;
   margin: 0 auto;
   min-height: 100vh;
+  padding-top: 62px;
   text-align: center;
   width: 60vw;
 
@@ -20,7 +21,7 @@
   border-radius: 20px;
   box-shadow: 0 0 40px $black;
   display: flex;
-  margin: 100px 0;
+  margin: 200px 0;
   overflow: hidden;
 
   .project-photo {

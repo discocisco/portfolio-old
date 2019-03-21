@@ -19,9 +19,15 @@
       border-bottom: 2px solid $white;
       cursor: pointer;
     }
+
+    a {
+      color: $white;
+      text-decoration: none;
+    }
   }
 
   &:hover {
-    background-color: rgba(0, 35, 50, .8);
+    // background-color: rgba(0, 35, 50, .8);
+    background-color: $transparent-space;
   }
 }
