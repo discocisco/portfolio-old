@@ -20,6 +20,8 @@ $transparent-space: rgba(0, 32, 54, .8);
 @import './Contact';
 @import './Footer';
 
+@import './MenuResponsive';
+
 html,
 body {
   background-color: $brickred;

@@ -1,15 +1,22 @@
 import React from 'react'
+import Navbar from 'react-bootstrap/Navbar'
+import Nav from 'react-bootstrap/Nav'
 
 import resume from './img/AndresOrtizPortfolioResume.pdf'
 
 const Menu = () => (
-  <nav className='sticky menu'>
-    <div className='menu-item'><a href='#about'>About</a></div>
-    <div className='menu-item'><a href='#skills'>Skills</a></div>
-    <div className='menu-item'><a href='#portfolio'>Portfolio</a></div>
-    <div className='menu-item'><a href='#contact'>Contact</a></div>
-    <div className='menu-item'><a href={resume} target='_blank' rel='noopener noreferrer'>Résumé</a></div>
-  </nav>
+  <Navbar fixed='top' className='menu justify-content-end' variant='dark' collapseOnSelect expand='md'>
+    <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+    <Navbar.Collapse className='justify-content-end' id="responsive-navbar-nav">
+      <Nav className="ml-auto justify-content-end show">
+        <Nav.Item><Nav.Link href='#about'>About</Nav.Link></Nav.Item>
+        <Nav.Item><Nav.Link href='#skills'>Skills</Nav.Link></Nav.Item>
+        <Nav.Item><Nav.Link href='#portfolio'>Portfolio</Nav.Link></Nav.Item>
+        <Nav.Item><Nav.Link href='#contact'>Contact</Nav.Link></Nav.Item>
+        <Nav.Item><Nav.Link href={resume} target='_blank' rel='noopener noreferrer'>Résumé</Nav.Link></Nav.Item>
+      </Nav>
+    </Navbar.Collapse>
+  </Navbar>
 )
 
 export default Menu
