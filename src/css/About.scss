@@ -7,28 +7,22 @@
   padding-top: 62px;
 
   .about-title {
-    font-size: 4em;
     font-weight: bold;
-    margin: 10px;
   }
 
   .about-profile {
     display: flex;
-    padding: 10px;
+    height: auto;
 
     .about-body {
-      padding: 20px;
-      width: 55vw;
+      width: auto;
 
       .about-quote {
-        font-size: 2em;
         font-style: italic;
-        margin: 10px;
-        padding: 10px 20px;
+        text-align: center;
       }
 
       .about-text {
-        font-size: 1.5em;
         margin: 10px;
         padding: 10px 20px;
       }
@@ -39,12 +33,14 @@
     border-radius: 50%;
     box-shadow: 0 0 20px $black;
     height: 300px;
-    margin: 10px 20px;
+    justify-content: center;
+    margin: auto;
     padding: 0;
-    transition: height 1.5s;
+    transition: transform 1.5s;
+    width: 300px;
 
     &:hover {
-      height: 400px;
+      transform: rotateY(720deg);
     }
 
     img {
