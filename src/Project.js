@@ -1,11 +1,11 @@
 import React, { Fragment } from 'react'
 
 const Project = ({ key, title, projStyling, imgSrc, summary, link, tech, repos }) => (
-  <div className={`project-item ${projStyling}`}>
-    <div className='project-photo'>
+  <div className={`row project-item ${projStyling}`}>
+    <div className='project-photo col-12 col-lg-7'>
       <a href={link} target='_blank' rel='noopener noreferrer'><img src={imgSrc}/></a>
     </div>
-    <div className='project-description'>
+    <div className='project-description col-12 col-lg-5'>
       <div className='project-title'>
         {title}
         <div className='project-link'>

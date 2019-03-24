@@ -12,8 +12,15 @@
 //
 // }
 
+@media all and (min-width: 769px) {
+  .navbar {
+    height: 70px;
+  }
+}
+
 @media all and (max-width: 768px) {
   .navbar {
     background-color: $transparent-space;
+    height: 56px;
   }
 }

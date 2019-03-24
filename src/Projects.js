@@ -54,7 +54,7 @@ const Projects = () => (
     <div className='projects-title'>
       Portfolio
     </div>
-    <div className='project-wrapper'>
+    <div className='project-wrapper container'>
       {projectArr.map(project =>
         <Project
           key={project.styling}
