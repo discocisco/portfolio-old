@@ -2,12 +2,11 @@
   align-items: center;
   background-color: $turqoise;
   display: flex;
-  height: 10vh;
+  height: auto;
   justify-content: space-between;
   padding: 20px 30px;
-}
 
-.footer-name {
-  font-weight: bold;
-  margin: 0 5px;
+  .footer-credit {
+    text-align: right;
+  }
 }

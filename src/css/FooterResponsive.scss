@@ -12,14 +12,8 @@
 //
 // }
 
-@media all and (min-width: 768px) {
-  .navbar {
-    height: 70px;
-  }
-}
-
-@media all and (max-width: 767px) {
-  .navbar {
-    background-color: $transparent-space;
+@media all and (max-width: 575px) {
+  .footer-wrapper {
+    font-size: .8em;
   }
 }

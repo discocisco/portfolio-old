@@ -4,12 +4,13 @@
   color: $white;
   display: flex;
   flex-direction: column;
-  // height: 90vh;
-  min-height: 90vh;
+  height: auto;
+  min-height: 100vh;
   padding-top: 62px;
 
   .contact-title {
     font-weight: bold;
+    margin-bottom: 20px;
     margin-top: 20px;
     text-align: center;
   }
