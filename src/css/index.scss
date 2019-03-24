@@ -23,6 +23,7 @@ $transparent-space: rgba(0, 32, 54, .8);
 @import './MenuResponsive';
 @import './IntroResponsive';
 @import './AboutResponsive';
+@import './SkillsResponsive';
 
 html,
 body {
@@ -35,7 +36,7 @@ body {
   scroll-behavior: smooth;
 }
 
-#root {
+body > div {
   background-attachment: fixed;
   background-color: $brickred;
   background-image: url('../img/DesertNightStars.jpg');

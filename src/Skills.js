@@ -28,7 +28,7 @@ const Skills = () => (
     <div className='skills-title'>
       Skills
     </div>
-    <div className='skills-content'>
+    <div className='skills-content container'>
       {skillsArr.map(skill =>
         <Skill key={skill} name={skill.name} deviconName={skill.deviconName}/>)}
     </div>

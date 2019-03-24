@@ -1,0 +1,39 @@
+// @media all and (max-width: 1199px) {
+//
+// }
+//
+// @media all and (max-width: 991px) {
+// }
+//
+// @media all and (max-width: 768px) {
+//
+// }
+// @media all and (max-width: 575px) {
+//
+// }
+
+@media all and (min-width: 576px) {
+  .skill-icon {
+    font-size: 4em;
+    height: 120px;
+    margin: 20px auto;
+    width: 120px;
+  }
+
+  .skills-title {
+    font-size: 4em;
+  }
+}
+
+@media all and (max-width: 575px) {
+  .skills-title {
+    font-size: 3em;
+  }
+
+  .skill-icon {
+    font-size: 3em;
+    height: 100px;
+    margin: 5px auto;
+    width: 100px;
+  }
+}
