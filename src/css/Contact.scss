@@ -4,11 +4,11 @@
   color: $white;
   display: flex;
   flex-direction: column;
-  height: 90vh;
+  // height: 90vh;
+  min-height: 90vh;
   padding-top: 62px;
 
   .contact-title {
-    font-size: 4em;
     font-weight: bold;
     margin-top: 20px;
     text-align: center;
@@ -23,18 +23,19 @@
 
     .contact-btns-row {
       display: flex;
-      justify-content: center;
-      width: 80vw;
+      justify-content: space-between;
+      width: 100%;
     }
   }
 }
 
 .contact-btn {
+  align-items: center;
   color: $paleaqua;
   display: flex;
   flex-direction: column;
-  height: 100%;
-  margin: 0 50px;
+  justify-content: center;
+  margin: 20px 0;
 
   .contact-icon {
     align-items: center;
@@ -42,18 +43,17 @@
     border-radius: 50%;
     box-shadow: 0 0 10px $black;
     display: flex;
-    font-size: 300%;
-    height: 200px;
+    // font-size: 300%;
+    // height: 200px;
     justify-content: center;
-    margin: 0 10px;
     padding: 0 20px;
-    width: 200px;
+    // width: 200px;
 
     &:hover {
       animation-duration: 1.7s;
       animation-iteration-count: infinite;
       animation-name: bounceIcon;
-      animation-timing-function: cubic-bezier(.28, .84, .42, 1);
+      animation-timing-function: cubic-bezier(.3, .85, .4, 1);
     }
 
     img {
@@ -74,7 +74,6 @@
 
   .contact-name {
     display: flex;
-    font-size: 1.2em;
     font-weight: bold;
     justify-content: center;
     margin: 10px 0;

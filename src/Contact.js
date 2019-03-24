@@ -11,9 +11,9 @@ const Contact = () => (
     <div className='contact-title'>
       Contact
     </div>
-    <div className='contact-container'>
-      <div className='contact-btns-row'>
-        <div className='contact-btn'>
+    <div className='contact-container container'>
+      <div className='contact-btns-row row'>
+        <div className='contact-btn col-12 col-sm-6 col-lg-3'>
           <a href='https://github.com/discocisco' target='_blank' rel='noopener noreferrer'>
             <div className='contact-icon'>
               <img className='github-img' src={githubIcon} />
@@ -23,7 +23,7 @@ const Contact = () => (
             Github - @discocisco
           </div>
         </div>
-        <div className='contact-btn'>
+        <div className='contact-btn col-12 col-sm-6 col-lg-3'>
           <a href='https://www.linkedin.com/in/f-andres-ortiz/' target='_blank' rel='noopener noreferrer'>
             <div className='contact-icon'>
               <img className='linkedin-img' src={linkedInIcon} />
@@ -33,7 +33,7 @@ const Contact = () => (
             f-andres-ortiz
           </div>
         </div>
-        <div className='contact-btn'>
+        <div className='contact-btn col-12 col-sm-6 col-lg-3'>
           <a href='mailto:f.andresort@gmail.com' target='_blank' rel='noopener noreferrer'>
             <div className='contact-icon'>
               <img className='email-img' src={emailIcon} />
@@ -43,7 +43,7 @@ const Contact = () => (
             f.andresort@gmail.com
           </div>
         </div>
-        <div className='contact-btn'>
+        <div className='contact-btn col-12 col-sm-6 col-lg-3'>
           <a href={resume} target='_blank' rel='noopener noreferrer'>
             <div className='contact-icon'>
               <img className='resume-img' src={resumeIcon} />

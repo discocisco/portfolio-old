@@ -1,0 +1,47 @@
+// @media all and (max-width: 1199px) {
+//
+// }
+//
+// @media all and (max-width: 991px) {
+// }
+//
+// @media all and (max-width: 768px) {
+//
+// }
+// @media all and (max-width: 575px) {
+//
+// }
+
+@media all and (min-width: 992px) {
+  .contact-icon {
+    height: 200px;
+    width: 200px;
+  }
+
+  .contact-name {
+    font-size: 1.2em;
+  }
+}
+
+@media all and (max-width: 991px) {
+  .contact-icon {
+    height: 160px;
+    width: 160px;
+  }
+}
+
+@media all and (min-width: 576px) {
+  .contact-title {
+    font-size: 4em;
+  }
+
+  .contact-wrapper {
+    height: 90vh;
+  }
+}
+
+@media all and (max-width: 575px) {
+  .contact-title {
+    font-size: 3em;
+  }
+}
