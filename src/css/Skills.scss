@@ -8,7 +8,8 @@
   text-align: center;
 
   .skills-title {
-    font-weight: bold;
+    font-family: 'Source Sans Pro';
+    font-weight: lighter;
     margin: 10px;
   }
 }
@@ -17,8 +18,6 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  // margin: 20px 50px;
-  // padding: 10px 60px;
 
   .skill-item {
     margin: 10px auto;
@@ -30,10 +29,8 @@
       border-radius: 50%;
       box-shadow: 0 0 20px $black;
       display: flex;
-      // height: 120px;
       justify-content: center;
       transition: transform 1s, border-radius 1s, border 1s;
-      // width: 120px;
 
       span {
         color: $spacecadet;
@@ -41,7 +38,9 @@
     }
 
     .skill-text {
-      font-size: 1.4em;
+      font-family: 'Open Sans';
+      font-size: 1.5em;
+      font-weight: lighter;
       text-shadow: 0 0 5px $black;
       transition: color 1s;
     }

@@ -9,7 +9,8 @@
   padding-top: 62px;
 
   .contact-title {
-    font-weight: bold;
+    font-family: 'Source Sans Pro';
+    font-weight: lighter;
     margin-bottom: 20px;
     margin-top: 20px;
     text-align: center;
@@ -75,6 +76,7 @@
 
   .contact-name {
     display: flex;
+    font-family: 'Open Sans';
     font-weight: bold;
     justify-content: center;
     margin: 10px 0;

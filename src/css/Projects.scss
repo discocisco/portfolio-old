@@ -8,7 +8,8 @@
   text-align: center;
 
   .projects-title {
-    font-weight: bold;
+    font-family: 'Source Sans Pro';
+    font-weight: lighter;
     height: inherit;
     margin-top: 10px;
   }
@@ -43,31 +44,34 @@
     justify-content: space-around;
     padding: 0 20px;
     padding-bottom: 10px;
-    // width: 55%;
 
-    .project-title {
-
-      .project-link {
-        border-bottom: 2px transparent solid;
-        font-size: .3em;
-
-        &:hover {
-          border-bottom: 2px $turqoise solid;
-
-          a {
-            color: $turqoise;
-          }
-        }
-
-        a {
-          color: $gray;
-          text-decoration: none;
-        }
-      }
+    .project-summary {
+      font-family: 'Open Sans';
+      font-weight: lighter;
     }
   }
 }
 
+.project-link {
+  border-bottom: 2px transparent solid;
+  font-family: 'Open Sans';
+  font-size: .3em;
+  font-weight: lighter;
+
+  &:hover {
+    border-bottom: 2px $turqoise solid;
+
+    a {
+      color: $turqoise;
+      text-decoration: none;
+    }
+  }
+
+  a {
+    color: $gray;
+    text-decoration: none;
+  }
+}
 
 .project-tech {
   display: flex;
@@ -89,6 +93,8 @@
 .project-repos {
   align-items: center;
   display: flex;
+  font-family: 'Open Sans';
+  font-weight: lighter;
 
   a {
     color: $paleaqua;
@@ -99,4 +105,29 @@
 .project-2,
 .project-4 {
   flex-direction: row-reverse;
+}
+
+.project-1 {
+  .project-title {
+    font-family: 'Source Sans Pro';
+    font-weight: bolder;
+  }
+}
+
+.project-2 {
+  .project-title {
+    font-family: 'Chelsea Market';
+  }
+}
+
+.project-3 {
+  .project-title {
+    font-family: 'Montserrat';
+  }
+}
+
+.project-4 {
+  .project-title {
+    font-family: 'Bungee Shade';
+  }
 }

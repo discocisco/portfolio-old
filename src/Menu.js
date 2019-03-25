@@ -9,6 +9,7 @@ const Menu = () => (
     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
     <Navbar.Collapse className='justify-content-end' id="responsive-navbar-nav">
       <Nav className="ml-auto justify-content-end">
+        <Nav.Item><Nav.Link href='#home'>Home</Nav.Link></Nav.Item>
         <Nav.Item><Nav.Link href='#about'>About</Nav.Link></Nav.Item>
         <Nav.Item><Nav.Link href='#skills'>Skills</Nav.Link></Nav.Item>
         <Nav.Item><Nav.Link href='#portfolio'>Portfolio</Nav.Link></Nav.Item>

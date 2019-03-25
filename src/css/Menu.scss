@@ -1,5 +1,6 @@
 .navbar {
   color: $white;
+  font-family: 'Source Sans Pro';
   height: auto;
   transition: background-color .5s;
 
@@ -8,7 +9,8 @@
   }
 
   .nav-item {
-    font-size: 1.6em;
+    font-size: 2em;
+    margin-left: 10px;
   }
 
   .nav-link {

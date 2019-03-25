@@ -20,7 +20,7 @@ const Contact = () => (
             </div>
           </a>
           <div className='contact-name'>
-            Github - @discocisco
+            discocisco
           </div>
         </div>
         <div className='contact-btn col-12 col-sm-6'>

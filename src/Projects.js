@@ -17,7 +17,7 @@ const projectArr = [
     ],
     repos: ['https://github.com/discocisco/scene-it', 'https://github.com/discocisco/scene-it-api']
   },
-  { name: 'Stumblr',
+  { name: 'Stumblr.',
     styling: 'project-2',
     imgSrc: project2,
     summary: 'Microblogging website to share personal blogs for yourself or for your friends! Led a team of four members throughout development of front- and back-end procedures',
@@ -37,7 +37,7 @@ const projectArr = [
     ],
     repos: ['https://github.com/discocisco/glyphs-client', 'https://github.com/discocisco/glyphs-api']
   },
-  { name: 'Tik-Tak-Toad',
+  { name: 'Tic-Tac-Toe',
     styling: 'project-4',
     imgSrc: project4,
     summary: 'Classic game of Tic-Tac-Toe with saved profiles and local or online multiplayer! Review past games or resume current ones right where you left off!',

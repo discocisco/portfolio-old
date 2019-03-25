@@ -3,22 +3,27 @@
   color: $white;
   display: flex;
   flex-direction: column;
-  font-weight: bold;
   justify-content: center;
   min-height: 100vh;
   text-align: center;
   text-shadow: 0 0 20px $black;
 
   .intro-name {
-    font-size: 4em;
+    font-family: 'Source Sans Pro';
+    font-size: 5em;
+    font-weight: lighter;
   }
 
   .intro-header {
+    font-family: 'Source Sans Pro';
     font-size: 2em;
-    font-style: italic;
+    font-weight: bold;
+    // font-weight: lighter;
   }
 
   .intro-location {
+    font-family: 'Open Sans';
     font-size: 2em;
+    font-weight: lighter;
   }
 }
