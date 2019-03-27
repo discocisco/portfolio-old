@@ -50,7 +50,7 @@ const Contact = () => (
             </div>
           </a>
           <div className='contact-name'>
-            Resumé
+            Resume
           </div>
         </div>
       </div>

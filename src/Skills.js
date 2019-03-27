@@ -8,7 +8,7 @@ const skillsArr = [
   { name: 'JavaScript', deviconName: 'javascript_badge' },
   { name: 'React', deviconName: 'react' },
   { name: 'Sass', deviconName: 'sass' },
-  { name: 'Boostrap', deviconName: 'bootstrap' },
+  { name: 'Bootstrap', deviconName: 'bootstrap' },
   { name: 'jQuery', deviconName: 'jquery' },
   { name: 'Ruby', deviconName: 'ruby' },
   { name: 'Ruby on Rails', deviconName: 'ruby_on_rails' },

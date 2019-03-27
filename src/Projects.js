@@ -20,7 +20,7 @@ const projectArr = [
   { name: 'Stumblr.',
     styling: 'project-2',
     imgSrc: project2,
-    summary: 'Microblogging website to share personal blogs for yourself or for your friends! Led a team of four members throughout development of front- and back-end procedures',
+    summary: 'Microblogging website to share personal blogs for yourself or for your friends! Led a team of four members throughout development of front and back-end procedures',
     link: 'https://hex-llc.github.io/stumblr-client',
     tech: [
       'javascript_badge', 'sass', 'html5', 'css3', 'bootstrap', 'jquery', 'nodejs', 'mongodb', 'nodejs_small', 'nodejs_small', 'heroku'
