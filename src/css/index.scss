@@ -12,7 +12,7 @@ $transparent-space: rgba(0, 32, 54, .8);
 
 @import './typography';
 @import './devicons';
-// @import './Parallax';
+@import './Parallax';
 @import './Menu';
 @import './Intro';
 @import './About';
@@ -35,7 +35,6 @@ body {
   font-family: sans-serif;
   height: 100vh;
   margin: 0;
-  // overflow: scroll;
   padding: 0;
   scroll-behavior: smooth;
 }
